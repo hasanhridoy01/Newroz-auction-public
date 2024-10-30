@@ -1,0 +1,26 @@
+.layout-color {
+  background: linear-gradient(180deg, #c3cfe2 11%, #f5f7fa 82%, #fff 99.5%);
+  width: 100%;
+}
+
+/* car-image */
+.car-image {
+  background-position: center right;
+  background-repeat: no-repeat;
+  display: block;
+}
+/* styles.css */
+.masked-image {
+  mask-image: url("/path-to-your-mask-shape.svg"); /* Shape for masking */
+  mask-size: cover; /* Adjust the mask's size */
+  mask-position: center;
+  mask-repeat: no-repeat;
+  -webkit-mask-image: url("/path-to-your-mask-shape.svg");
+  -webkit-mask-size: cover;
+  -webkit-mask-position: center;
+  -webkit-mask-repeat: no-repeat;
+}
+
+.auction-image{
+    z-index: 1000;
+}

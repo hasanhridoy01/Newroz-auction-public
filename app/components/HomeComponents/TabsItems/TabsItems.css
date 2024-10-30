@@ -1,0 +1,18 @@
+.apply-backGround {
+  background: linear-gradient(180deg, #c3cfe2 0%, #ffffff 66.88%);
+  border-radius: 16px;
+  z-index: 1000;
+  margin-top: -64px;
+  position: relative; /* Add this to activate z-index */
+}
+
+/* TabsItems.css */
+.active-tab[data-state="active"] {
+  background-color: #e93839; /* Your active color */
+  color: white;
+}
+
+.active-tab {
+  color: #585865;
+  transition: background-color 0.3s;
+}
