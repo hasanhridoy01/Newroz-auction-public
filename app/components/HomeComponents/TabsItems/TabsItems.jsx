@@ -15,6 +15,7 @@ import img8 from "../../../../public/images/car&bike&vespa/car4.png";
 import img9 from "../../../../public/images/car&bike&vespa/car5.png";
 import img10 from "../../../../public/images/car&bike&vespa/car6.png";
 import Image from "next/image";
+import ComeDown from "../ComeDown/ComeDown";
 
 const TabsItems = () => {
   return (
@@ -114,50 +115,9 @@ const TabsItems = () => {
               className="object-cover"
             />
             <div className="absolute flex gap-4 -translate-x-1/2 left-1/2 bottom-4">
-              <div className="h-[42px] w-[35px] rounded-[6px] py-[3px] px-[3px] bg-[#FAFAFA]">
-                <h4
-                  className="text-[12px] leading-[18px] text-center text-[#E93839]"
-                  style={{ fontFamily: "Poppins", fontWeight: 600 }}
-                >
-                  12
-                </h4>
-                <p
-                  className="text-[12px] leading-[18px] text-center text-[#969696]"
-                  style={{ fontFamily: "Poppins", fontWeight: 600 }}
-                >
-                  D
-                </p>
-              </div>
-
-              <div className="h-[42px] w-[35px] rounded-[6px] py-[3px] px-[3px] bg-[#FAFAFA]">
-                <h4
-                  className="text-[12px] leading-[18px] text-center text-[#E93839]"
-                  style={{ fontFamily: "Poppins", fontWeight: 600 }}
-                >
-                  23
-                </h4>
-                <p
-                  className="text-[12px] leading-[18px] text-center text-[#969696]"
-                  style={{ fontFamily: "Poppins", fontWeight: 600 }}
-                >
-                  H
-                </p>
-              </div>
-
-              <div className="h-[42px] w-[35px] rounded-[6px] py-[3px] px-[3px] bg-[#FAFAFA]">
-                <h4
-                  className="text-[12px] leading-[18px] text-center text-[#E93839]"
-                  style={{ fontFamily: "Poppins", fontWeight: 600 }}
-                >
-                  50
-                </h4>
-                <p
-                  className="text-[12px] leading-[18px] text-center text-[#969696]"
-                  style={{ fontFamily: "Poppins", fontWeight: 600 }}
-                >
-                  M
-                </p>
-              </div>
+              <ComeDown value={34} label="D" />
+              <ComeDown value={6} label="H" />
+              <ComeDown value={30} label="M" />
             </div>
           </div>
           <div className="">
@@ -187,50 +147,9 @@ const TabsItems = () => {
               className="object-cover"
             />
             <div className="absolute flex gap-4 -translate-x-1/2 left-1/2 bottom-4">
-              <div className="h-[42px] w-[35px] rounded-[6px] py-[3px] px-[3px] bg-[#FAFAFA]">
-                <h4
-                  className="text-[12px] leading-[18px] text-center text-[#E93839]"
-                  style={{ fontFamily: "Poppins", fontWeight: 600 }}
-                >
-                  12
-                </h4>
-                <p
-                  className="text-[12px] leading-[18px] text-center text-[#969696]"
-                  style={{ fontFamily: "Poppins", fontWeight: 600 }}
-                >
-                  D
-                </p>
-              </div>
-
-              <div className="h-[42px] w-[35px] rounded-[6px] py-[3px] px-[3px] bg-[#FAFAFA]">
-                <h4
-                  className="text-[12px] leading-[18px] text-center text-[#E93839]"
-                  style={{ fontFamily: "Poppins", fontWeight: 600 }}
-                >
-                  23
-                </h4>
-                <p
-                  className="text-[12px] leading-[18px] text-center text-[#969696]"
-                  style={{ fontFamily: "Poppins", fontWeight: 600 }}
-                >
-                  H
-                </p>
-              </div>
-
-              <div className="h-[42px] w-[35px] rounded-[6px] py-[3px] px-[3px] bg-[#FAFAFA]">
-                <h4
-                  className="text-[12px] leading-[18px] text-center text-[#E93839]"
-                  style={{ fontFamily: "Poppins", fontWeight: 600 }}
-                >
-                  50
-                </h4>
-                <p
-                  className="text-[12px] leading-[18px] text-center text-[#969696]"
-                  style={{ fontFamily: "Poppins", fontWeight: 600 }}
-                >
-                  M
-                </p>
-              </div>
+              <ComeDown value={37} label="D" />
+              <ComeDown value={6} label="H" />
+              <ComeDown value={30} label="M" />
             </div>
           </div>
           <div>
@@ -260,50 +179,9 @@ const TabsItems = () => {
               className="object-cover"
             />
             <div className="absolute flex gap-4 -translate-x-1/2 left-1/2 bottom-4">
-              <div className="h-[42px] w-[35px] rounded-[6px] py-[3px] px-[3px] bg-[#FAFAFA]">
-                <h4
-                  className="text-[12px] leading-[18px] text-center text-[#E93839]"
-                  style={{ fontFamily: "Poppins", fontWeight: 600 }}
-                >
-                  12
-                </h4>
-                <p
-                  className="text-[12px] leading-[18px] text-center text-[#969696]"
-                  style={{ fontFamily: "Poppins", fontWeight: 600 }}
-                >
-                  D
-                </p>
-              </div>
-
-              <div className="h-[42px] w-[35px] rounded-[6px] py-[3px] px-[3px] bg-[#FAFAFA]">
-                <h4
-                  className="text-[12px] leading-[18px] text-center text-[#E93839]"
-                  style={{ fontFamily: "Poppins", fontWeight: 600 }}
-                >
-                  23
-                </h4>
-                <p
-                  className="text-[12px] leading-[18px] text-center text-[#969696]"
-                  style={{ fontFamily: "Poppins", fontWeight: 600 }}
-                >
-                  H
-                </p>
-              </div>
-
-              <div className="h-[42px] w-[35px] rounded-[6px] py-[3px] px-[3px] bg-[#FAFAFA]">
-                <h4
-                  className="text-[12px] leading-[18px] text-center text-[#E93839]"
-                  style={{ fontFamily: "Poppins", fontWeight: 600 }}
-                >
-                  50
-                </h4>
-                <p
-                  className="text-[12px] leading-[18px] text-center text-[#969696]"
-                  style={{ fontFamily: "Poppins", fontWeight: 600 }}
-                >
-                  M
-                </p>
-              </div>
+              <ComeDown value={3} label="D" />
+              <ComeDown value={6} label="H" />
+              <ComeDown value={30} label="M" />
             </div>
           </div>
           <div className="">
@@ -333,50 +211,9 @@ const TabsItems = () => {
               className="object-cover"
             />
             <div className="absolute flex gap-4 -translate-x-1/2 left-1/2 bottom-4">
-              <div className="h-[42px] w-[35px] rounded-[6px] py-[3px] px-[3px] bg-[#FAFAFA]">
-                <h4
-                  className="text-[12px] leading-[18px] text-center text-[#E93839]"
-                  style={{ fontFamily: "Poppins", fontWeight: 600 }}
-                >
-                  12
-                </h4>
-                <p
-                  className="text-[12px] leading-[18px] text-center text-[#969696]"
-                  style={{ fontFamily: "Poppins", fontWeight: 600 }}
-                >
-                  D
-                </p>
-              </div>
-
-              <div className="h-[42px] w-[35px] rounded-[6px] py-[3px] px-[3px] bg-[#FAFAFA]">
-                <h4
-                  className="text-[12px] leading-[18px] text-center text-[#E93839]"
-                  style={{ fontFamily: "Poppins", fontWeight: 600 }}
-                >
-                  23
-                </h4>
-                <p
-                  className="text-[12px] leading-[18px] text-center text-[#969696]"
-                  style={{ fontFamily: "Poppins", fontWeight: 600 }}
-                >
-                  H
-                </p>
-              </div>
-
-              <div className="h-[42px] w-[35px] rounded-[6px] py-[3px] px-[3px] bg-[#FAFAFA]">
-                <h4
-                  className="text-[12px] leading-[18px] text-center text-[#E93839]"
-                  style={{ fontFamily: "Poppins", fontWeight: 600 }}
-                >
-                  50
-                </h4>
-                <p
-                  className="text-[12px] leading-[18px] text-center text-[#969696]"
-                  style={{ fontFamily: "Poppins", fontWeight: 600 }}
-                >
-                  M
-                </p>
-              </div>
+              <ComeDown value={67} label="D" />
+              <ComeDown value={9} label="H" />
+              <ComeDown value={30} label="M" />
             </div>
           </div>
           <div className="">
@@ -406,50 +243,9 @@ const TabsItems = () => {
               className="object-cover"
             />
             <div className="absolute flex gap-4 -translate-x-1/2 left-1/2 bottom-4">
-              <div className="h-[42px] w-[35px] rounded-[6px] py-[3px] px-[3px] bg-[#FAFAFA]">
-                <h4
-                  className="text-[12px] leading-[18px] text-center text-[#E93839]"
-                  style={{ fontFamily: "Poppins", fontWeight: 600 }}
-                >
-                  12
-                </h4>
-                <p
-                  className="text-[12px] leading-[18px] text-center text-[#969696]"
-                  style={{ fontFamily: "Poppins", fontWeight: 600 }}
-                >
-                  D
-                </p>
-              </div>
-
-              <div className="h-[42px] w-[35px] rounded-[6px] py-[3px] px-[3px] bg-[#FAFAFA]">
-                <h4
-                  className="text-[12px] leading-[18px] text-center text-[#E93839]"
-                  style={{ fontFamily: "Poppins", fontWeight: 600 }}
-                >
-                  23
-                </h4>
-                <p
-                  className="text-[12px] leading-[18px] text-center text-[#969696]"
-                  style={{ fontFamily: "Poppins", fontWeight: 600 }}
-                >
-                  H
-                </p>
-              </div>
-
-              <div className="h-[42px] w-[35px] rounded-[6px] py-[3px] px-[3px] bg-[#FAFAFA]">
-                <h4
-                  className="text-[12px] leading-[18px] text-center text-[#E93839]"
-                  style={{ fontFamily: "Poppins", fontWeight: 600 }}
-                >
-                  50
-                </h4>
-                <p
-                  className="text-[12px] leading-[18px] text-center text-[#969696]"
-                  style={{ fontFamily: "Poppins", fontWeight: 600 }}
-                >
-                  M
-                </p>
-              </div>
+              <ComeDown value={34} label="D" />
+              <ComeDown value={6} label="H" />
+              <ComeDown value={30} label="M" />
             </div>
           </div>
           <div className="">
@@ -479,50 +275,9 @@ const TabsItems = () => {
               className="object-cover"
             />
             <div className="absolute flex gap-4 -translate-x-1/2 left-1/2 bottom-4">
-              <div className="h-[42px] w-[35px] rounded-[6px] py-[3px] px-[3px] bg-[#FAFAFA]">
-                <h4
-                  className="text-[12px] leading-[18px] text-center text-[#E93839]"
-                  style={{ fontFamily: "Poppins", fontWeight: 600 }}
-                >
-                  12
-                </h4>
-                <p
-                  className="text-[12px] leading-[18px] text-center text-[#969696]"
-                  style={{ fontFamily: "Poppins", fontWeight: 600 }}
-                >
-                  D
-                </p>
-              </div>
-
-              <div className="h-[42px] w-[35px] rounded-[6px] py-[3px] px-[3px] bg-[#FAFAFA]">
-                <h4
-                  className="text-[12px] leading-[18px] text-center text-[#E93839]"
-                  style={{ fontFamily: "Poppins", fontWeight: 600 }}
-                >
-                  23
-                </h4>
-                <p
-                  className="text-[12px] leading-[18px] text-center text-[#969696]"
-                  style={{ fontFamily: "Poppins", fontWeight: 600 }}
-                >
-                  H
-                </p>
-              </div>
-
-              <div className="h-[42px] w-[35px] rounded-[6px] py-[3px] px-[3px] bg-[#FAFAFA]">
-                <h4
-                  className="text-[12px] leading-[18px] text-center text-[#E93839]"
-                  style={{ fontFamily: "Poppins", fontWeight: 600 }}
-                >
-                  50
-                </h4>
-                <p
-                  className="text-[12px] leading-[18px] text-center text-[#969696]"
-                  style={{ fontFamily: "Poppins", fontWeight: 600 }}
-                >
-                  M
-                </p>
-              </div>
+              <ComeDown value={4} label="D" />
+              <ComeDown value={6} label="H" />
+              <ComeDown value={30} label="M" />
             </div>
           </div>
           <div className="">
@@ -552,50 +307,9 @@ const TabsItems = () => {
               className="object-cover"
             />
             <div className="absolute flex gap-4 -translate-x-1/2 left-1/2 bottom-4">
-              <div className="h-[42px] w-[35px] rounded-[6px] py-[3px] px-[3px] bg-[#FAFAFA]">
-                <h4
-                  className="text-[12px] leading-[18px] text-center text-[#E93839]"
-                  style={{ fontFamily: "Poppins", fontWeight: 600 }}
-                >
-                  12
-                </h4>
-                <p
-                  className="text-[12px] leading-[18px] text-center text-[#969696]"
-                  style={{ fontFamily: "Poppins", fontWeight: 600 }}
-                >
-                  D
-                </p>
-              </div>
-
-              <div className="h-[42px] w-[35px] rounded-[6px] py-[3px] px-[3px] bg-[#FAFAFA]">
-                <h4
-                  className="text-[12px] leading-[18px] text-center text-[#E93839]"
-                  style={{ fontFamily: "Poppins", fontWeight: 600 }}
-                >
-                  23
-                </h4>
-                <p
-                  className="text-[12px] leading-[18px] text-center text-[#969696]"
-                  style={{ fontFamily: "Poppins", fontWeight: 600 }}
-                >
-                  H
-                </p>
-              </div>
-
-              <div className="h-[42px] w-[35px] rounded-[6px] py-[3px] px-[3px] bg-[#FAFAFA]">
-                <h4
-                  className="text-[12px] leading-[18px] text-center text-[#E93839]"
-                  style={{ fontFamily: "Poppins", fontWeight: 600 }}
-                >
-                  50
-                </h4>
-                <p
-                  className="text-[12px] leading-[18px] text-center text-[#969696]"
-                  style={{ fontFamily: "Poppins", fontWeight: 600 }}
-                >
-                  M
-                </p>
-              </div>
+              <ComeDown value={32} label="D" />
+              <ComeDown value={6} label="H" />
+              <ComeDown value={30} label="M" />
             </div>
           </div>
           <div>
@@ -625,50 +339,9 @@ const TabsItems = () => {
               className="object-cover"
             />
             <div className="absolute flex gap-4 -translate-x-1/2 left-1/2 bottom-4">
-              <div className="h-[42px] w-[35px] rounded-[6px] py-[3px] px-[3px] bg-[#FAFAFA]">
-                <h4
-                  className="text-[12px] leading-[18px] text-center text-[#E93839]"
-                  style={{ fontFamily: "Poppins", fontWeight: 600 }}
-                >
-                  12
-                </h4>
-                <p
-                  className="text-[12px] leading-[18px] text-center text-[#969696]"
-                  style={{ fontFamily: "Poppins", fontWeight: 600 }}
-                >
-                  D
-                </p>
-              </div>
-
-              <div className="h-[42px] w-[35px] rounded-[6px] py-[3px] px-[3px] bg-[#FAFAFA]">
-                <h4
-                  className="text-[12px] leading-[18px] text-center text-[#E93839]"
-                  style={{ fontFamily: "Poppins", fontWeight: 600 }}
-                >
-                  23
-                </h4>
-                <p
-                  className="text-[12px] leading-[18px] text-center text-[#969696]"
-                  style={{ fontFamily: "Poppins", fontWeight: 600 }}
-                >
-                  H
-                </p>
-              </div>
-
-              <div className="h-[42px] w-[35px] rounded-[6px] py-[3px] px-[3px] bg-[#FAFAFA]">
-                <h4
-                  className="text-[12px] leading-[18px] text-center text-[#E93839]"
-                  style={{ fontFamily: "Poppins", fontWeight: 600 }}
-                >
-                  50
-                </h4>
-                <p
-                  className="text-[12px] leading-[18px] text-center text-[#969696]"
-                  style={{ fontFamily: "Poppins", fontWeight: 600 }}
-                >
-                  M
-                </p>
-              </div>
+              <ComeDown value={0} label="D" />
+              <ComeDown value={6} label="H" />
+              <ComeDown value={30} label="M" />
             </div>
           </div>
           <div className="">

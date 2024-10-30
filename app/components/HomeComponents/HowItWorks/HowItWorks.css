@@ -1,0 +1,11 @@
+.content-bgColor {
+  background: linear-gradient(180deg, #c3cfe2 0%, #f5f7fa 100%);
+}
+.tabs {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 21.09px;
+  text-align: center;
+  color: #ffffff;
+}
