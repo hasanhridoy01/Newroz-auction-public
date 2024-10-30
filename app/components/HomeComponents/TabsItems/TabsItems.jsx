@@ -692,7 +692,7 @@ const TabsItems = () => {
       <CarsBikeVespa />
 
       {/* Find More Button */}
-      <div className="h-[58px] lg:w-[152px] w-auto mx-auto rounded-full border border-[#D43334] bg-white py-3 px-8 flex items-center justify-center cursor-pointer lg:mt-2 mt-0 hover:bg-[#e83839]">
+      <div className="h-[58px] lg:w-[152px] w-auto mx-auto rounded-full border border-[#D43334] bg-white py-3 px-8 flex items-center justify-center cursor-pointer lg:mt-5 mt-0 hover:bg-[#e83839]">
         <p
           className="text-[15px] text-[#621818] landing-[21px] text-center hover:underline hover:text-[#ffffff]"
           style={{ fontFamily: "Roboto", fontWeight: 700 }}
