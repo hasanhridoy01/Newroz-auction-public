@@ -24,7 +24,7 @@ const Header = () => {
   }, []);
 
   //added active page color effect.............!
-  const isHomePage = location.pathname.includes("/home");
+  const isHomePage = location.pathname.includes("/");
   const isServicePage = location.pathname.includes("service");
   const isPricingPage = location.pathname.includes("pricing");
   const isContactPage = location.pathname.includes("contact");
