@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Certified = () => {
   return (
-    <div className="container grid grid-cols-1 gap-6 py-5 pl-5 pr-0 mx-auto my-5 lg:grid-cols-3 mx lg:pl-14 lg:py-10 lg:my-20 lg:pr-14">
+    <div className="container grid grid-cols-1 gap-4 py-5 pl-5 pr-0 mx-auto my-5 lg:gap-5 lg:grid-cols-3 mx lg:pl-14 lg:py-10 lg:my-10 lg:pr-14">
       <div className="col-span-1 rounded-xl">
         <div className="w-full h-[682px] apply-bg-linear rounded-xl relative">
           <Image
@@ -51,24 +51,265 @@ const Certified = () => {
             </div>
           </div>
         </div>
+        <div className="grid grid-cols-2 gap-3 lg:grid-cols-3 mt-7">
+          <div className="h-[60px] w-[145px] rounded-[12px] p-3.5 bg-[#F3F6FA] border border-[#F3F6FA] flex gap-2 items-center">
+            <h3 className="apply-fontFamily text-[20px] text-[#E93839] font-bold landing-[30px]">
+              2943
+            </h3>
+            <h2 className="apply-fontFamily text-[13px] text-[#2E2E3E] font-bold landing-[6px]">
+              Happy User
+            </h2>
+          </div>
+          <div className="h-[60px] w-[145px] rounded-[12px] p-3.5 bg-[#F3F6FA] border border-[#F3F6FA] flex gap-2 items-center">
+            <h3 className="apply-fontFamily text-[20px] text-[#E93839] font-bold landing-[30px]">
+              $0.8M
+            </h3>
+            <h2 className="apply-fontFamily text-[13px] text-[#2E2E3E] font-bold landing-[6px]">
+              Vehicle Sold
+            </h2>
+          </div>
+          <div className="h-[60px] w-[145px] rounded-[12px] p-3.5 bg-[#F3F6FA] border border-[#F3F6FA] flex gap-2 items-center">
+            <h3 className="apply-fontFamily text-[20px] text-[#E93839] font-bold landing-[30px]">
+              4.8★
+            </h3>
+            <h2 className="apply-fontFamily text-[13px] text-[#2E2E3E] font-bold landing-[6px]">
+              User Review
+            </h2>
+          </div>
+        </div>
       </div>
 
-      <div className="col-span-2">
+      <div className="col-span-2 pr-3 mt-6 lg:pr-0 lg:mt-0">
         <div className="">
-          <h3 className="apply-fontFamily text-[24px] landing-[32px] text-[#2E2E3E] font-bold">
+          <h3 className="apply-fontFamily lg:text-[24px] text-[18px] landing-[32px] text-[#2E2E3E] font-bold">
             Buy with Confidence:
           </h3>
-          <h2 className="apply-fontFamily text-[40px] landing-[40px] text-[#2E2E3E] font-bold uppercase">
+          <h2 className="apply-fontFamily lg:text-[40px] text-[18px] landing-[40px] text-[#2E2E3E] font-bold uppercase lg:mt-0 mt-2">
             <span className="text-[#D43334]">Certified</span> &{" "}
             <span className="text-[#D43334]">Trusted</span> Vehicles
           </h2>
-          <p className="apply-fontFamily text-[16px] landing-[30px] font-medium text-[#2E2E3E] mt-2.5">
+          <p className="apply-fontFamily text-[16px] landing-[30px] font-[400] text-[#2E2E3E] mt-2.5">
             At the Vehicles Auction Platform, we understand that buying a
             vehicle at auction requires trust. That’s why all vehicles listed on
             our platform are rigorously inspected and certified by a renowned,
             independent third-party company. Here’s why you can bid with
             complete confidence:
           </p>
+          <div className="mt-6 lg:mt-2">
+            <h2
+              style={{
+                fontFamily: "Poppins",
+                fontWeight: 700,
+                fontSize: "14px",
+                lineHeight: "21px",
+                color: "#2E2E3E",
+              }}
+            >
+              Comprehensive Vehicle Inspection:
+            </h2>
+            <ul className="mt-2 ml-3">
+              <li
+                style={{
+                  listStyle: "inside",
+                  fontFamily: "Poppins",
+                  fontWeight: 500,
+                  fontSize: "14px",
+                  lineHeight: "21px",
+                  color: "#585865",
+                }}
+              >
+                Each vehicle undergoes a detailed multi-point inspection
+                covering all major components, including engine, transmission,
+                body condition, brakes, and more.
+              </li>
+              <li
+                style={{
+                  listStyle: "inside",
+                  fontFamily: "Poppins",
+                  fontWeight: 500,
+                  fontSize: "14px",
+                  lineHeight: "21px",
+                  color: "#585865",
+                }}
+                className="mt-1"
+              >
+                Receive a thorough inspection report, so you know exactly what
+                you're bidding on
+              </li>
+            </ul>
+          </div>
+          <div className="mt-4">
+            <h2
+              style={{
+                fontFamily: "Poppins",
+                fontWeight: 700,
+                fontSize: "14px",
+                lineHeight: "21px",
+                color: "#2E2E3E",
+              }}
+            >
+              Certified Condition Reports:
+            </h2>
+            <ul className="mt-2 ml-3">
+              <li
+                style={{
+                  listStyle: "inside",
+                  fontFamily: "Poppins",
+                  fontWeight: 500,
+                  fontSize: "14px",
+                  lineHeight: "21px",
+                  color: "#585865",
+                }}
+              >
+                Vehicles are certified by an industry-leading inspection company
+                with years of experience.
+              </li>
+              <li
+                style={{
+                  listStyle: "inside",
+                  fontFamily: "Poppins",
+                  fontWeight: 500,
+                  fontSize: "14px",
+                  lineHeight: "21px",
+                  color: "#585865",
+                }}
+                className="mt-1"
+              >
+                The certification includes a full report on the vehicle’s
+                current condition, any past damages, and overall performance
+                ratings.
+              </li>
+            </ul>
+          </div>
+          <div className="mt-4">
+            <h2
+              style={{
+                fontFamily: "Poppins",
+                fontWeight: 700,
+                fontSize: "14px",
+                lineHeight: "21px",
+                color: "#2E2E3E",
+              }}
+            >
+              Transparent History & Documentation:
+            </h2>
+            <ul className="mt-2 ml-3">
+              <li
+                style={{
+                  listStyle: "inside",
+                  fontFamily: "Poppins",
+                  fontWeight: 500,
+                  fontSize: "14px",
+                  lineHeight: "21px",
+                  color: "#585865",
+                }}
+              >
+                Access verified documentation such as service history,
+                registration, and legal title, giving you full transparency
+                before making your decision.
+              </li>
+              <li
+                style={{
+                  listStyle: "inside",
+                  fontFamily: "Poppins",
+                  fontWeight: 500,
+                  fontSize: "14px",
+                  lineHeight: "21px",
+                  color: "#585865",
+                }}
+                className="mt-1"
+              >
+                You’ll have peace of mind knowing every vehicle meets stringent
+                legal and quality standards.
+              </li>
+            </ul>
+          </div>
+          <div className="mt-4">
+            <h2
+              style={{
+                fontFamily: "Poppins",
+                fontWeight: 700,
+                fontSize: "14px",
+                lineHeight: "21px",
+                color: "#2E2E3E",
+              }}
+            >
+              Bid Without Worry:
+            </h2>
+            <ul className="mt-2 ml-3">
+              <li
+                style={{
+                  listStyle: "inside",
+                  fontFamily: "Poppins",
+                  fontWeight: 500,
+                  fontSize: "14px",
+                  lineHeight: "21px",
+                  color: "#585865",
+                }}
+              >
+                Whether you’re buying a car, bike, or Vespa, you can place your
+                bids confidently, knowing that every vehicle has been thoroughly
+                checked and certified.
+              </li>
+              <li
+                style={{
+                  listStyle: "inside",
+                  fontFamily: "Poppins",
+                  fontWeight: 500,
+                  fontSize: "14px",
+                  lineHeight: "21px",
+                  color: "#585865",
+                }}
+                className="mt-1"
+              >
+                Enjoy the auction experience with the knowledge that the vehicle
+                you’re bidding on meets the condition outlined in the report.
+              </li>
+            </ul>
+          </div>
+          <div className="mt-4">
+            <h2
+              style={{
+                fontFamily: "Poppins",
+                fontWeight: 700,
+                fontSize: "14px",
+                lineHeight: "21px",
+                color: "#2E2E3E",
+              }}
+            >
+              Transparent History & Documentation:
+            </h2>
+            <ul className="mt-2 ml-3">
+              <li
+                style={{
+                  listStyle: "inside",
+                  fontFamily: "Poppins",
+                  fontWeight: 500,
+                  fontSize: "14px",
+                  lineHeight: "21px",
+                  color: "#585865",
+                }}
+              >
+                Access verified documentation such as service history,
+                registration, and legal title, giving you full transparency
+                before making your decision.
+              </li>
+              <li
+                style={{
+                  listStyle: "inside",
+                  fontFamily: "Poppins",
+                  fontWeight: 500,
+                  fontSize: "14px",
+                  lineHeight: "21px",
+                  color: "#585865",
+                }}
+                className="mt-1"
+              >
+                You’ll have peace of mind knowing every vehicle meets stringent
+                legal and quality standards.
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
