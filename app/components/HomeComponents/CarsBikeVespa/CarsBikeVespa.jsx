@@ -12,7 +12,7 @@ const CarsBikeVespa = () => {
   return (
     <div className="grid grid-cols-1 gap-4 mt-8 mb-5 lg:hidden">
       <div className="bg-none h-[243px] flex flex-col gap-4 cursor-pointer">
-        <div className="relative h-[149px] w-full bg-[#E6E6E6] rounded-xl">
+        <div className="relative h-[175px] w-full bg-[#E6E6E6] rounded-xl">
           <Image
             src={img6}
             fill
@@ -36,7 +36,7 @@ const CarsBikeVespa = () => {
           </h2>
           <h5
             className="mt-1 text-[16px] landing-[28px] text-[#969696]"
-            style={{ fontFamily: "Poppins", fontWeight: 600 }}
+            style={{ fontFamily: "Poppins", fontWeight: 400 }}
           >
             Mercedes | SUV | 15000000
           </h5>
@@ -44,7 +44,7 @@ const CarsBikeVespa = () => {
       </div>
 
       <div className="bg-none h-[243px] flex flex-col gap-4 cursor-pointer">
-        <div className="relative h-[149px] w-full bg-[#E1F5E4] rounded-xl">
+        <div className="relative h-[175px] w-full bg-[#E1F5E4] rounded-xl">
           <Image
             src={img6}
             fill
@@ -68,7 +68,7 @@ const CarsBikeVespa = () => {
           </h2>
           <h5
             className="mt-1 text-[16px] leading-[28px] text-[#969696]"
-            style={{ fontFamily: "Poppins", fontWeight: 600 }}
+            style={{ fontFamily: "Poppins", fontWeight: 400 }}
           >
             Mercedes | SUV | 15000000
           </h5>
@@ -76,7 +76,7 @@ const CarsBikeVespa = () => {
       </div>
 
       <div className="bg-none h-[243px] flex flex-col gap-4 cursor-pointer">
-        <div className="relative h-[149px] w-full bg-[#E6E6E6] rounded-xl">
+        <div className="relative h-[175px] w-full bg-[#E6E6E6] rounded-xl">
           <Image
             src={img7}
             fill
@@ -100,7 +100,7 @@ const CarsBikeVespa = () => {
           </h2>
           <h5
             className="mt-1 text-[16px] landing-[28px] text-[#969696]"
-            style={{ fontFamily: "Poppins", fontWeight: 600 }}
+            style={{ fontFamily: "Poppins", fontWeight: 400 }}
           >
             Mercedes | SUV | 15000000
           </h5>
@@ -108,7 +108,7 @@ const CarsBikeVespa = () => {
       </div>
 
       <div className="bg-none h-[243px] flex flex-col gap-4 cursor-pointer">
-        <div className="relative h-[149px] w-full bg-[#D9E5EF] rounded-xl">
+        <div className="relative h-[175px] w-full bg-[#D9E5EF] rounded-xl">
           <Image
             src={img6}
             fill
@@ -132,7 +132,7 @@ const CarsBikeVespa = () => {
           </h2>
           <h5
             className="mt-1 text-[16px] landing-[28px] text-[#969696]"
-            style={{ fontFamily: "Poppins", fontWeight: 600 }}
+            style={{ fontFamily: "Poppins", fontWeight: 400 }}
           >
             Mercedes | SUV | 15000000
           </h5>

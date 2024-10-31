@@ -105,7 +105,7 @@ const TabsItems = () => {
       {/* Show All Car & Bike & Vespa */}
       <div className="hidden grid-cols-1 gap-4 mt-6 mb-5 lg:grid lg:grid-cols-4 lg:mt-8">
         <div className="bg-none h-[243px] flex flex-col gap-4 cursor-pointer">
-          <div className="relative h-[149px] w-full bg-[#E6E6E6] rounded-xl">
+          <div className="relative h-[175px] w-full bg-[#E6E6E6] rounded-xl">
             <Image
               src={img6}
               fill
@@ -114,7 +114,7 @@ const TabsItems = () => {
               alt="cars images"
               className="object-cover"
             />
-            <div className="absolute flex gap-4 -translate-x-1/2 left-1/2 bottom-4">
+            <div className="absolute flex gap-2 -translate-x-1/2 left-1/2 bottom-4">
               <ComeDown value={34} label="D" />
               <ComeDown value={6} label="H" />
               <ComeDown value={30} label="M" />
@@ -123,21 +123,21 @@ const TabsItems = () => {
           <div className="">
             <h2
               className="text-[20px] landing-[30px] text-[#222222]"
-              style={{ fontFamily: "Poppins", fontWeight: 500 }}
+              style={{ fontFamily: "Poppins", fontWeight: 600 }}
             >
               Mercedes-Benz EQS
             </h2>
             <h5
               className="mt-1 text-[16px] landing-[28px] text-[#969696]"
-              style={{ fontFamily: "Poppins", fontWeight: 600 }}
+              style={{ fontFamily: "Poppins", fontWeight: 400 }}
             >
-              Mercedes | SUV | 15000000
+              Mercedes | SUV | 16000000
             </h5>
           </div>
         </div>
 
         <div className="bg-none h-[243px] flex flex-col gap-4 cursor-pointer">
-          <div className="relative h-[149px] w-full bg-[#E1F5E4] rounded-xl">
+          <div className="relative h-[175px] w-full bg-[#E1F5E4] rounded-xl">
             <Image
               src={img6}
               fill
@@ -146,7 +146,7 @@ const TabsItems = () => {
               alt="cars images"
               className="object-cover"
             />
-            <div className="absolute flex gap-4 -translate-x-1/2 left-1/2 bottom-4">
+            <div className="absolute flex gap-2 -translate-x-1/2 left-1/2 bottom-4">
               <ComeDown value={37} label="D" />
               <ComeDown value={6} label="H" />
               <ComeDown value={30} label="M" />
@@ -155,21 +155,21 @@ const TabsItems = () => {
           <div>
             <h2
               className="text-[20px] leading-[30px] text-[#222222]"
-              style={{ fontFamily: "Poppins", fontWeight: 500 }}
+              style={{ fontFamily: "Poppins", fontWeight: 600 }}
             >
               Mercedes-Benz EQS
             </h2>
             <h5
               className="mt-1 text-[16px] leading-[28px] text-[#969696]"
-              style={{ fontFamily: "Poppins", fontWeight: 600 }}
+              style={{ fontFamily: "Poppins", fontWeight: 400 }}
             >
-              Mercedes | SUV | 15000000
+              Mercedes | SUV | 16000000
             </h5>
           </div>
         </div>
 
         <div className="bg-none h-[243px] flex flex-col gap-4 cursor-pointer">
-          <div className="relative h-[149px] w-full bg-[#E6E6E6] rounded-xl">
+          <div className="relative h-[175px] w-full bg-[#E6E6E6] rounded-xl">
             <Image
               src={img7}
               fill
@@ -178,7 +178,7 @@ const TabsItems = () => {
               alt="cars images"
               className="object-cover"
             />
-            <div className="absolute flex gap-4 -translate-x-1/2 left-1/2 bottom-4">
+            <div className="absolute flex gap-2 -translate-x-1/2 left-1/2 bottom-4">
               <ComeDown value={3} label="D" />
               <ComeDown value={6} label="H" />
               <ComeDown value={30} label="M" />
@@ -187,21 +187,21 @@ const TabsItems = () => {
           <div className="">
             <h2
               className="text-[20px] landing-[30px] text-[#222222]"
-              style={{ fontFamily: "Poppins", fontWeight: 500 }}
+              style={{ fontFamily: "Poppins", fontWeight: 600 }}
             >
               Mercedes-Benz EQS
             </h2>
             <h5
               className="mt-1 text-[16px] landing-[28px] text-[#969696]"
-              style={{ fontFamily: "Poppins", fontWeight: 600 }}
+              style={{ fontFamily: "Poppins", fontWeight: 400 }}
             >
-              Mercedes | SUV | 15000000
+              Mercedes | SUV | 16000000
             </h5>
           </div>
         </div>
 
         <div className="bg-none h-[243px] flex flex-col gap-4 cursor-pointer">
-          <div className="relative h-[149px] w-full bg-[#D9E5EF] rounded-xl">
+          <div className="relative h-[175px] w-full bg-[#D9E5EF] rounded-xl">
             <Image
               src={img6}
               fill
@@ -210,7 +210,7 @@ const TabsItems = () => {
               alt="cars images"
               className="object-cover"
             />
-            <div className="absolute flex gap-4 -translate-x-1/2 left-1/2 bottom-4">
+            <div className="absolute flex gap-2 -translate-x-1/2 left-1/2 bottom-4">
               <ComeDown value={67} label="D" />
               <ComeDown value={9} label="H" />
               <ComeDown value={30} label="M" />
@@ -219,21 +219,21 @@ const TabsItems = () => {
           <div className="">
             <h2
               className="text-[20px] landing-[30px] text-[#222222]"
-              style={{ fontFamily: "Poppins", fontWeight: 500 }}
+              style={{ fontFamily: "Poppins", fontWeight: 600 }}
             >
               Mercedes-Benz EQS
             </h2>
             <h5
               className="mt-1 text-[16px] landing-[28px] text-[#969696]"
-              style={{ fontFamily: "Poppins", fontWeight: 600 }}
+              style={{ fontFamily: "Poppins", fontWeight: 400 }}
             >
-              Mercedes | SUV | 15000000
+              Mercedes | SUV | 16000000
             </h5>
           </div>
         </div>
 
         <div className="bg-none h-[243px] flex flex-col gap-4 cursor-pointer">
-          <div className="relative h-[149px] w-full bg-[#E6E6E6] rounded-xl">
+          <div className="relative h-[175px] w-full bg-[#E6E6E6] rounded-xl">
             <Image
               src={img7}
               fill
@@ -242,7 +242,7 @@ const TabsItems = () => {
               alt="cars images"
               className="object-cover"
             />
-            <div className="absolute flex gap-4 -translate-x-1/2 left-1/2 bottom-4">
+            <div className="absolute flex gap-2 -translate-x-1/2 left-1/2 bottom-4">
               <ComeDown value={34} label="D" />
               <ComeDown value={6} label="H" />
               <ComeDown value={30} label="M" />
@@ -251,21 +251,21 @@ const TabsItems = () => {
           <div className="">
             <h2
               className="text-[20px] landing-[30px] text-[#222222]"
-              style={{ fontFamily: "Poppins", fontWeight: 500 }}
+              style={{ fontFamily: "Poppins", fontWeight: 600 }}
             >
               Mercedes-Benz EQS
             </h2>
             <h5
               className="mt-1 text-[16px] landing-[28px] text-[#969696]"
-              style={{ fontFamily: "Poppins", fontWeight: 600 }}
+              style={{ fontFamily: "Poppins", fontWeight: 400 }}
             >
-              Mercedes | SUV | 15000000
+              Mercedes | SUV | 16000000
             </h5>
           </div>
         </div>
 
         <div className="bg-none h-[243px] flex flex-col gap-4 cursor-pointer">
-          <div className="relative h-[149px] w-full bg-[#E6E6E6] rounded-xl">
+          <div className="relative h-[175px] w-full bg-[#E6E6E6] rounded-xl">
             <Image
               src={img6}
               fill
@@ -274,7 +274,7 @@ const TabsItems = () => {
               alt="cars images"
               className="object-cover"
             />
-            <div className="absolute flex gap-4 -translate-x-1/2 left-1/2 bottom-4">
+            <div className="absolute flex gap-2 -translate-x-1/2 left-1/2 bottom-4">
               <ComeDown value={4} label="D" />
               <ComeDown value={6} label="H" />
               <ComeDown value={30} label="M" />
@@ -283,21 +283,21 @@ const TabsItems = () => {
           <div className="">
             <h2
               className="text-[20px] landing-[30px] text-[#222222]"
-              style={{ fontFamily: "Poppins", fontWeight: 500 }}
+              style={{ fontFamily: "Poppins", fontWeight: 600 }}
             >
               Mercedes-Benz EQS
             </h2>
             <h5
               className="mt-1 text-[16px] landing-[28px] text-[#969696]"
-              style={{ fontFamily: "Poppins", fontWeight: 600 }}
+              style={{ fontFamily: "Poppins", fontWeight: 400 }}
             >
-              Mercedes | SUV | 15000000
+              Mercedes | SUV | 16000000
             </h5>
           </div>
         </div>
 
         <div className="bg-none h-[243px] flex flex-col gap-4 cursor-pointer">
-          <div className="relative h-[149px] w-full bg-[#E1F5E4] rounded-xl">
+          <div className="relative h-[175px] w-full bg-[#E1F5E4] rounded-xl">
             <Image
               src={img6}
               fill
@@ -306,7 +306,7 @@ const TabsItems = () => {
               alt="cars images"
               className="object-cover"
             />
-            <div className="absolute flex gap-4 -translate-x-1/2 left-1/2 bottom-4">
+            <div className="absolute flex gap-2 -translate-x-1/2 left-1/2 bottom-4">
               <ComeDown value={32} label="D" />
               <ComeDown value={6} label="H" />
               <ComeDown value={30} label="M" />
@@ -315,21 +315,21 @@ const TabsItems = () => {
           <div>
             <h2
               className="text-[20px] leading-[30px] text-[#222222]"
-              style={{ fontFamily: "Poppins", fontWeight: 500 }}
+              style={{ fontFamily: "Poppins", fontWeight: 600 }}
             >
               Mercedes-Benz EQS
             </h2>
             <h5
               className="mt-1 text-[16px] leading-[28px] text-[#969696]"
-              style={{ fontFamily: "Poppins", fontWeight: 600 }}
+              style={{ fontFamily: "Poppins", fontWeight: 400 }}
             >
-              Mercedes | SUV | 15000000
+              Mercedes | SUV | 16000000
             </h5>
           </div>
         </div>
 
         <div className="bg-none h-[243px] flex flex-col gap-4 cursor-pointer">
-          <div className="relative h-[149px] w-full bg-[#D9E5EF] rounded-xl">
+          <div className="relative h-[175px] w-full bg-[#D9E5EF] rounded-xl">
             <Image
               src={img6}
               fill
@@ -338,7 +338,7 @@ const TabsItems = () => {
               alt="cars images"
               className="object-cover"
             />
-            <div className="absolute flex gap-4 -translate-x-1/2 left-1/2 bottom-4">
+            <div className="absolute flex gap-2 -translate-x-1/2 left-1/2 bottom-4">
               <ComeDown value={0} label="D" />
               <ComeDown value={6} label="H" />
               <ComeDown value={30} label="M" />
@@ -347,15 +347,15 @@ const TabsItems = () => {
           <div className="">
             <h2
               className="text-[20px] landing-[30px] text-[#222222]"
-              style={{ fontFamily: "Poppins", fontWeight: 500 }}
+              style={{ fontFamily: "Poppins", fontWeight: 600 }}
             >
               Mercedes-Benz EQS
             </h2>
             <h5
               className="mt-1 text-[16px] landing-[28px] text-[#969696]"
-              style={{ fontFamily: "Poppins", fontWeight: 600 }}
+              style={{ fontFamily: "Poppins", fontWeight: 400 }}
             >
-              Mercedes | SUV | 15000000
+              Mercedes | SUV | 16000000
             </h5>
           </div>
         </div>
@@ -365,7 +365,7 @@ const TabsItems = () => {
       <CarsBikeVespa />
 
       {/* Find More Button */}
-      <div className="h-[58px] lg:w-[152px] w-auto mx-auto rounded-full border border-[#D43334] bg-white py-3 px-8 flex items-center justify-center cursor-pointer lg:mt-5 mt-0 hover:bg-[#e83839]">
+      <div className="h-[58px] lg:w-[152px] w-auto mx-auto rounded-full border border-[#D43334] bg-white py-3 px-8 flex items-center justify-center cursor-pointer lg:mt-11 mt-5 hover:bg-[#e83839]">
         <p
           className="text-[15px] text-[#621818] landing-[21px] text-center hover:underline hover:text-[#ffffff]"
           style={{ fontFamily: "Roboto", fontWeight: 700 }}

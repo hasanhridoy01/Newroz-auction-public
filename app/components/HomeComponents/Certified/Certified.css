@@ -1,0 +1,22 @@
+.apply-bg-linear {
+  background: linear-gradient(0deg, #ff675e 0%, #44b0ff 100%);
+  background-size: 200% 200%;
+  animation: oceanWave 10s ease-in-out infinite;
+}
+
+/* Keyframes for ocean-like wave effect moving from bottom to top */
+@keyframes oceanWave {
+  0% {
+    background-position: 0% 100%;
+  }
+  50% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 0% 100%;
+  }
+}
+.apply-fontFamily {
+  font-family: Poppins;
+  text-align: left;
+}

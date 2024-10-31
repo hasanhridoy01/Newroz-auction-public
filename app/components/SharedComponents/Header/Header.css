@@ -372,6 +372,6 @@
 .header-filter {
   backdrop-filter: blur(40px);
 }
-.scrolled {
+/* .scrolled {
   background: rgba(255, 255, 255, 0.4);
-}
+} */

@@ -149,10 +149,10 @@ const Header = () => {
 
         {/* collapse-button */}
         <div className="flex gap-3 md:hidden">
-          <button className="p-2 search-small-button md:hidden">
+          <button className="p-3 search-small-button md:hidden">
             <svg
-              width="24"
-              height="24"
+              width="20"
+              height="20"
               viewBox="0 0 18 18"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -173,10 +173,10 @@ const Header = () => {
               />
             </svg>
           </button>
-          <button className="p-2 collapse-button md:hidden">
+          <button className="p-3 collapse-button md:hidden">
             <svg
-              width="24"
-              height="24"
+              width="20"
+              height="20"
               viewBox="0 0 18 18"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
