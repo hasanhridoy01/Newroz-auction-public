@@ -25,8 +25,8 @@ const Header = () => {
 
   //added active page color effect.............!
   const isHomePage = location.pathname.includes("/");
-  const isServicePage = location.pathname.includes("service");
-  const isPricingPage = location.pathname.includes("pricing");
+  const isAuctionsPage = location.pathname.includes("Auctions");
+  const isPressPage = location.pathname.includes(" Press");
   const isContactPage = location.pathname.includes("contact");
 
   const toggleDropdown = () => {
@@ -62,17 +62,17 @@ const Header = () => {
             <Link href={"/"} legacyBehavior>
               <a
                 href="#"
-                className={`nav-link ${isServicePage ? "nav-link-active" : ""}`}
+                className={`nav-link ${isAuctionsPage ? "nav-link-active" : ""}`}
               >
-                Service
+                Auctions
               </a>
             </Link>
             <Link href={"/"} legacyBehavior>
               <a
                 href="#"
-                className={`nav-link ${isPricingPage ? "nav-link-active" : ""}`}
+                className={`nav-link ${isPressPage ? "nav-link-active" : ""}`}
               >
-                Pricing
+                 Press
               </a>
             </Link>
             <Link href={"/"} legacyBehavior>
