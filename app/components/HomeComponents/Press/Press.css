@@ -1,4 +1,14 @@
 .apply-fontFamily {
-  font-family: Poppins;
+  font-family: "Poppins", serif;;
   text-align: left;
+}
+.overflow-container {
+  width: 100%;
+  overflow-x: auto; /* Allows scrolling but hides the scrollbar */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.overflow-container::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
 }

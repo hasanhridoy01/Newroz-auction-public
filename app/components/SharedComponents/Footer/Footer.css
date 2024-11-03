@@ -1,0 +1,46 @@
+.footer-bg-color {
+  background: linear-gradient(180deg, #f9f2eb 0%, #cac2d3 100%),
+    linear-gradient(180deg, #f1e4d8 0%, #969696 100%);
+  width: 100%;
+  background-image: url(../../../../public/images/footer/Logo.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+.footer-header {
+  align-items: start;
+  justify-content: space-between;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #1f1f39;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 19px;
+  text-transform: none;
+  position: relative;
+  padding-bottom: 3px;
+  font-family: Roboto;
+}
+.nav-link:hover {
+  color: #e93839;
+}
+.nav-link-active {
+  color: #e93839;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 19px;
+  text-transform: none;
+  padding-bottom: 3px;
+  font-family: Roboto;
+}
+.nav-link:hover::after,
+.nav-link-active::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  border-bottom: 2px solid #e93839;
+}

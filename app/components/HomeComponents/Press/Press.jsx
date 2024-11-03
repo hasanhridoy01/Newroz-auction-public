@@ -2,9 +2,14 @@ import "./Press.css";
 import img from "../../../../public/images/Home/thumb.png";
 import Image from "next/image";
 
+//import images file section
+import img1 from "../../../../public/images/Home/morningImages/Views/fream1.png";
+import img2 from "../../../../public/images/Home/morningImages/Views/fream2.png";
+import img3 from "../../../../public/images/Home/morningImages/Views/fream3.png";
+
 const Press = () => {
   return (
-    <div className="container px-5 py-5 mx-auto lg:px-14 lg:py-10">
+    <div className="container px-5 py-5 mx-auto lg:px-14 lg:py-6">
       <div className="items-center justify-between hidden mb-2 lg:flex">
         <div className="">
           <h2 className="apply-fontFamily text-[32px] landing-[48px] text-[#222222] font-semibold">
@@ -36,7 +41,7 @@ const Press = () => {
           </button>
         </div>
       </div>
-      <div className="grid grid-cols-1 gap-5 lg:grid-cols-2">
+      <div className="grid grid-cols-1 gap-5 lg:grid-cols-2 lg:h-[240px] h-auto lg:mb-20 mb-10">
         <div className="lg:hidden">
           <h2 className="apply-fontFamily text-[32px] landing-[48px] text-[#222222] font-semibold">
             Good morning
@@ -45,21 +50,21 @@ const Press = () => {
             Monday, December 25, 2024
           </h5>
         </div>
-        <div className="relative grid grid-cols-1 gap-4 p-2 lg:grid-cols-2">
+        <div className="relative grid grid-cols-1 gap-4 p-1 lg:grid-cols-2">
           <div className="relative">
             <Image src={img} alt="image" priority quality={100} />
           </div>
           <div className="relative">
-            <p className="apply-fontFamily text-[13px] landing-[21px] font-medium">
+            <p className="apply-fontFamily text-[14px] landing-[21px]" style={{ fontWeight: 600 }}>
               Yang guys bid on a car and he wins the auction. He arrange aar
               handover ceremony.{" "}
             </p>
-            <p className="apply-fontFamily text-[13px] landing-[21px] font-light mt-2">
+            <p className="apply-fontFamily text-[13px] landing-[21px] mt-2" style={{ fontWeight: 400 }}>
               Car handover ceremony. Yang guys bid on a car and he wins the
               auction. Finally, after checking and obtaining documentation, The
               happy customer received the car key.
             </p>
-            <p className="apply-fontFamily text-[13px] landing-[21px] font-light mt-2 mb-12">
+            <p className="apply-fontFamily text-[13px] landing-[21px] font-light mt-2 mb-12" style={{ fontWeight: 400 }}>
               Car handover ceremony. Yang guys bid on a car and he wins the
               auction. Finally, after checking and obtaining documentation, he
               received the car key.
@@ -70,6 +75,7 @@ const Press = () => {
             </div>
           </div>
         </div>
+
         <div className="lg:hidden">
           <button className="flex flex-row gap-3 apply-fontFamily text-[#222222] text-[20px] landing-[30px] font-bold">
             View All Press{" "}
@@ -91,21 +97,147 @@ const Press = () => {
             </svg>
           </button>
         </div>
-        <div className="hidden p-2 overflow-y-hidden border lg:flex">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. A beatae
-            earum sint maxime enim praesentium hic illo non sit animi ad
-            perspiciatis commodi nostrum laborum laudantium aspernatur accusamus
-            rerum obcaecati, accusantium adipisci minus sequi necessitatibus
-            dignissimos. Ad aperiam earum sequi facilis, placeat pariatur
-            debitis tempora officiis. Asperiores, ullam facilis culpa aperiam,
-            consequatur nostrum optio quibusdam repudiandae, quia ipsa nemo fuga
-            minus! Velit, aperiam. Possimus incidunt molestiae blanditiis
-            reiciendis numquam repellendus quidem debitis iusto libero eveniet,
-            quod consectetur pariatur cum praesentium tempore id est quisquam,
-            inventore vero consequuntur eos exercitationem, minus hic illum!
-            Minus, explicabo quia quos dicta voluptatum fugiat itaque!
-          </p>
+
+        {/* Over Flow container */}
+        <div className="flex-col hidden gap-5 p-2 overflow-container lg:flex">
+          <div className="grid grid-cols-5 gap-3">
+            <div className="relative flex items-start justify-end col-span-1">
+              <Image
+                src={img3}
+                priority
+                height={64}
+                width={64}
+                quality={100}
+                alt="morning image"
+              />
+            </div>
+            <div className="flex flex-col col-span-4 gap-1 pr-2">
+              <h2
+                className="text-[15px] landing-[21px]"
+                style={{ fontFamily: "Poppins", fontWeight: 600 }}
+              >
+                Understanding color theory: the color wheel and finding
+                complementary colors
+              </h2>
+              <p
+                className="text-[12px] landing-[16px]"
+                style={{ fontFamily: "Poppins", fontWeight: 400 }}
+              >
+                Dec 30, 2019 05:18
+              </p>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-5 gap-3">
+            <div className="relative flex items-start justify-end col-span-1">
+              <Image
+                src={img1}
+                priority
+                height={64}
+                width={64}
+                quality={100}
+                alt="morning image"
+              />
+            </div>
+            <div className="flex flex-col col-span-4 gap-1 pr-2">
+              <h2
+                className="text-[15px] landing-[21px]"
+                style={{ fontFamily: "Poppins", fontWeight: 600 }}
+              >
+                Yo Reddit! What’s a small thing that anyone can do at nearly
+                anytime to improve their mood and make
+              </h2>
+              <p
+                className="text-[12px] landing-[16px]"
+                style={{ fontFamily: "Poppins", fontWeight: 400 }}
+              >
+                Dec 4, 2019 05:18
+              </p>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-5 gap-3">
+            <div className="relative flex items-start justify-end col-span-1">
+              <Image
+                src={img2}
+                priority
+                height={64}
+                width={64}
+                quality={100}
+                alt="morning image"
+              />
+            </div>
+            <div className="flex flex-col col-span-4 gap-1 pr-2">
+              <h2
+                className="text-[15px] landing-[21px]"
+                style={{ fontFamily: "Poppins", fontWeight: 600 }}
+              >
+                How to design a product that can grow itself 10x in year:
+              </h2>
+              <p
+                className="text-[12px] landing-[16px] text-[#E93839]"
+                style={{ fontFamily: "Poppins", fontWeight: 400 }}
+              >
+                Feb 2, 2019 19:28
+              </p>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-5 gap-3">
+            <div className="relative flex items-start justify-end col-span-1">
+              <Image
+                src={img3}
+                priority
+                height={64}
+                width={64}
+                quality={100}
+                alt="morning image"
+              />
+            </div>
+            <div className="flex flex-col col-span-4 gap-1 pr-2">
+              <h2
+                className="text-[15px] landing-[21px]"
+                style={{ fontFamily: "Poppins", fontWeight: 600 }}
+              >
+                Understanding color theory: the color wheel and finding
+                complementary colors
+              </h2>
+              <p
+                className="text-[12px] landing-[16px]"
+                style={{ fontFamily: "Poppins", fontWeight: 400 }}
+              >
+                Dec 30, 2019 05:18
+              </p>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-5 gap-3">
+            <div className="relative flex items-start justify-end col-span-1">
+              <Image
+                src={img1}
+                priority
+                height={64}
+                width={64}
+                quality={100}
+                alt="morning image"
+              />
+            </div>
+            <div className="flex flex-col col-span-4 gap-1 pr-2">
+              <h2
+                className="text-[15px] landing-[21px]"
+                style={{ fontFamily: "Poppins", fontWeight: 600 }}
+              >
+                Yo Reddit! What’s a small thing that anyone can do at nearly
+                anytime to improve their mood and make
+              </h2>
+              <p
+                className="text-[12px] landing-[16px]"
+                style={{ fontFamily: "Poppins", fontWeight: 400 }}
+              >
+                Dec 4, 2019 05:18
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

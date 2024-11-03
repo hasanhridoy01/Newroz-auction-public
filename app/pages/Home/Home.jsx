@@ -5,6 +5,7 @@ import HowItWorks from "@/app/components/HomeComponents/HowItWorks/HowItWorks";
 import HowItWorkSmall from "@/app/components/HomeComponents/HowItWorkSmall/HowItWorkSmall";
 import Certified from "@/app/components/HomeComponents/Certified/Certified";
 import Press from "@/app/components/HomeComponents/Press/Press";
+import Promotional from "@/app/components/HomeComponents/Promotional/Promotional";
 
 const HomeComponents = () => {
   return (
@@ -15,6 +16,7 @@ const HomeComponents = () => {
       <HowItWorkSmall />
       <Certified />
       <Press />
+      <Promotional />
     </div>
   );
 };
