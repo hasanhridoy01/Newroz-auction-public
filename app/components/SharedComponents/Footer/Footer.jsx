@@ -13,8 +13,8 @@ const Footer = () => {
   const currentPath = router?.pathname || "";
 
   const isHomePage = currentPath === "/";
-  const isAuctionPage = currentPath.includes(" Auction");
-  const isPressPage = currentPath.includes(" Press");
+  const isAuctionPage = currentPath.includes("Auction");
+  const isPressPage = currentPath.includes("Press");
   const isContactPage = currentPath.includes("contact");
 
   return (
@@ -35,14 +35,14 @@ const Footer = () => {
                 Home
               </a>
             </Link>
-            <Link href="/ Auction" legacyBehavior>
+            <Link href="/Auction" legacyBehavior>
               <a
                 className={`nav-link ${isAuctionPage ? "nav-link-active" : ""}`}
               >
                  Auction
               </a>
             </Link>
-            <Link href="/ Press" legacyBehavior>
+            <Link href="/Press" legacyBehavior>
               <a
                 className={`nav-link ${isPressPage ? "nav-link-active" : ""}`}
               >

@@ -51,7 +51,7 @@ const Header = () => {
         </div>
         <div className="navbar-end-section">
           <nav className="header-nav" role="navigation">
-            <Link href="/home" legacyBehavior>
+            <Link href="/" legacyBehavior>
               <a
                 href="#"
                 className={`nav-link ${isHomePage ? "nav-link-active" : ""}`}
