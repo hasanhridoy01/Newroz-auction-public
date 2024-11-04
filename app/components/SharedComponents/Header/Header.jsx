@@ -24,8 +24,8 @@ const Header = () => {
   }, []);
 
   //added active page color effect.............!
-  const isHomePage = location.pathname.includes("/");
-  const isAuctionsPage = location.pathname.includes("Auctions");
+  const isHomePage = location.pathname.includes("home");
+  const isAuctionsPage = location.pathname.includes("auction");
   const isPressPage = location.pathname.includes(" Press");
   const isContactPage = location.pathname.includes("contact");
 
@@ -59,7 +59,7 @@ const Header = () => {
                 Home
               </a>
             </Link>
-            <Link href={"/"} legacyBehavior>
+            <Link href={"/auction"} legacyBehavior>
               <a
                 href="#"
                 className={`nav-link ${isAuctionsPage ? "nav-link-active" : ""}`}
